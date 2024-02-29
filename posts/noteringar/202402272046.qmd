@@ -1,0 +1,43 @@
+---
+title: Preskriptivt och normativt beslutsfattande
+author: ""
+date: 2024-02-27
+categories:
+  - beslutsfattande
+draft: true
+id: "202402272046"
+---
+
+## Preskriptivt eller normativt beslutsfattande
+
+Man kan dock fråga sig vad som är "fel beslut". Resonemanget i boken blir preskriptivt.
+
+Tornell lägger även in flera exempel där han tar upp att personer blir mer nöjda eller missnöjda. Detta blir en direkt hänvisning till forskning. Men det jag saknar är ett kritiskt förhållningssätt till forskningen.
+
+Vad menar jag?
+
+När Tornell skriver exempelvis på s. 100 finns exemplet "Konsten att välja rätt bil".
+
+> Tornell beskriver två försök som har gjorts där man försöker förstå vilken metod om är bäst, är det magkänslan eller förnuftet? Slutsatsen som dras i boken, och jag förstår inte riktigt om det är Tornells slutsats av forskningen eller om det är forskarnas egna slutsats. Det är att för beslutstyper där antalet faktorer är lågt, då blir de som använder förnuftet mest nöjda.
+
+Men för beslut med fler faktorer verkar det som att personer som använder magkänslan blir mest nöjda.
+
+Slutsatsen som Tornell drar är att man bör göra dom invecklade besluten på magkänsla eftersom dom är svåra att överblicka.
+
+Samtidigt undrar jag om resultatet snarare kan förklaras av att personerna går på en beslutsfälla?
+
+För den centrala frågeställningen för att komma vidare är att förstå vad som är rätt beslut. Eller snarare, hur vet man i efterhand att man fattade rätt beslut? Och hur vet man att definitionen av rätt beslut är rätt i framtiden? Då kommer förutsättningarna ha ändrats varpå ett beslut som tidigare framstod som felaktigt kan på grund av nya förutsättningar framstå som rätt. I vardagligt tur brukar jag kalla detta fenomen för "tur".
+
+Detta är nog min centrala kritik mot boken. Som tyvärr är tankar som går utanför denna kurs eftersom den enbart behandlar normativt beslutsfattande. För mig är det en central frågeställning som behöver behandlas och nämnas.
+
+Samtidigt är det ett problem som jag tror människor som tänker mycket fastnar i. Man vill hitta det optimala beslutet och funderar därför mycket på det. Och då blir det att man behöver definiera ett rätt, och det tar en massa tid.
+
+## Hjärnan som en avskild del – 😂
+
+Jag tycker att man kan tolka Tornells förhållningssätt till sin hjärna som ett humoristiskt förhållningssätt. Alltså att betrakta sin hjärna som en skild del av sitt självupplevda jag är naturligtvis dömt att misslyckas. Det självupplevda jaget skapas i hjärnan. Jag tycker att det skapar ett visst avstånd mellan mitt självupplevda jag, alltså det jaget som upplever tankar och känslor.
+
+Jag tror att ett sådant förhållningssätt gör det lättare att se när man är i en beslutsfälla. Eftersom jag då kan tänka tanken "det var inte jag, det var min hjärna som tänkte fel". Naturligtvis helt meningslöst i en rättssal, men kanske inte när man ska fatta beslut i sitt vardagsliv tillsammans med andra människor. Jag skulle inte blir förvånad om omgivningen betraktade detta som ett humoristiskt sätt att erkänna sina misstag.
+
+I och med att det finns flera forskningsexempel i boken **(räkna upp)** som menar att vi har svårare att ta till oss information som motsäger uppgifter som vi gör till vår identitet. Det perspektiv som Tornell har kan vara ett verktyg för att lättare se sina egna misstag.
+
+Känslor verkar vara en viktig del av beslutsfattandet. För att bättre förstå detta så lär man gå in och prata specifikt om vad som är tankar och känslor. Och hur dom hänger ihop.

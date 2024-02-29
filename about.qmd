@@ -1,0 +1,9 @@
+---
+title: "Om"
+image: profile.webp
+about:
+  template: jolla
+
+---
+
+En blogg om teknik, datorer, ledarskap, offentlig förvaltning.
