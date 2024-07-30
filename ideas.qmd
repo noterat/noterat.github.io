@@ -1,0 +1,11 @@
+---
+title: "Ideas"
+about:
+  template: jolla
+---
+
+# Embeddings
+Playing with embeddings to plot data. 
+
+# Coccoliths
+Trying to figure out if Coccoliths can be used for carbon capture. 

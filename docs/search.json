@@ -1,23 +1,58 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
     "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Studying decision-, risk and policy."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "blog",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 7, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Mapping ~400k speeches from the Swedish parlament\n\n\n\n\n\n\ndata-science\n\n\nembeddings\n\n\n\n\n\n\n\n\n\nJul 30, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/noteringar/202407301845.html",
+    "href": "posts/noteringar/202407301845.html",
+    "title": "Mapping ~400k speeches from the Swedish parlament",
+    "section": "",
+    "text": "This post is an exploration of the open data available at the Swedish parliament. They have done an amazing job classifying and making the data accessible though an API. The post is inspired by Umar Butlers post Mapping (almost) every law, regulation and case in Australia which explained every step along the way in a very thorough manner.\nThe data avaliable at the Swedish parliament is huge. So this is only an exploration of the speeches held at parliament. There are tons of data such as voting results, drafting of laws, etc.\nMy plan is to write this a series divided into the following parts:\nNote that I am not an academic in the social sciences - I do this because it interest me. This is not actual science. But if you do actual science and you have feedback, don’t hesitate to contact me!"
+  },
+  {
+    "objectID": "posts/noteringar/202407301845.html#data-gathering",
+    "href": "posts/noteringar/202407301845.html#data-gathering",
+    "title": "Mapping ~400k speeches from the Swedish parlament",
+    "section": "Data gathering",
+    "text": "Data gathering\nIn my case this is the easy part since the data is ready to download. I used my Macbook from 2017 with python 3.11 and SQLite. Of all the data that is avaliable I choose speeches becuase this was the smallest dataset. I figured it would cost to much to get the embeddings for the other data.\nFirst step was to read the API-documentation in order to understand how to enumerate all the API-calls. Then I downloaded all the CSV-files containing a list of speeches from 1993-2024. I loaded them in SQLite and from there I could enumerate the API-calls. The actual scraping was done with scrapy and the content was saved in a SQLite database. The response was a JSON that had the following data:\n\n\n{'anforande': {'anforande_id': 'c0d41037-1ffd-ee11-87dd-6805cad9744d',\n               'anforande_nummer': '10',\n               'anforandetext': '&lt;p&gt;Herr talman! Jag tackar för anförandet av '\n                                'Yasmine Bladelius.&lt;/p&gt;&lt;p&gt;Jag noterade i '\n                                'anförandet att man var glad över att '\n                                'lagförslaget nu ligger på bordet för votering '\n                                'i eftermiddag och att en stor majoritet av '\n                                'riksdagen och av de berörda '\n                                'lobbyorganisationerna är överens och positiva '\n                                'till förslaget. Det man kanske missar att '\n                                'säga, som framgår av tidigare replikskiften, '\n                                'när man målar upp att det är '\n                                'Sverigedemokraterna och Kristdemokraterna som '\n                                'är skeptiska till förslaget är att det inte '\n                                'bara är vi som är skeptiska. Yasmine kan ha '\n                                'missat debatten de senaste månaderna, men det '\n                                'är en lång rad från professionen inom '\n                                'läkarvården som är djupt kritiska. Det finns '\n                                'en remisslista med en rad olika '\n                                'remissinstanser som har lyft upp en viss '\n                                'skepsis om förslaget, och jag instämmer i '\n                                'deras försiktighetsprincip. Det gäller även '\n                                'Svenska Bankföreningen, Skatteverket, '\n                                'Socialstyrelsen, Arbetsförmedlingen, '\n                                'Kronofogdemyndigheten, Polismyndigheten, '\n                                'Åklagarmyndigheten, Ekobrottsmyndigheten och '\n                                'så vidare.&lt;/p&gt;&lt;p&gt;Demoskops senaste mätning '\n                                'visar att endast 20\\xa0procent av Sveriges '\n                                'befolkning är positiva. Inte minst inom '\n                                'Socialdemokraternas egna väljarled är en '\n                                'majoritet emot förslaget. Det kan vara väl '\n                                'värt att uppmärksamma de som lyssnar på '\n                                'debatten att det inte är Sverigedemokraterna '\n                                'och Kristdemokraterna allena som är '\n                                'kritiska.&lt;/p&gt;&lt;p&gt;Jag har naturligtvis också '\n                                'haft diskussionen hemma vid bordet med vänner '\n                                'och andra i min bekantskapskrets, och jag har '\n                                'lovat att ställa en fråga till '\n                                'Socialdemokraterna från de kvinnor jag har '\n                                'pratat med, nu när vi ändå står här. Vad är '\n                                'det att vara en kvinna, när man vill förenkla '\n                                'och ska kunna identifiera sig hur man '\n                                'vill?&lt;/p&gt;&lt;p&gt;(Applåder)&lt;/p&gt;',\n               'avsnittsrubrik': 'Förbättrade möjligheter att ändra kön',\n               'dok_datum': '2024-04-17 00:00:00',\n               'dok_hangar_id': '5205787',\n               'dok_id': 'HB09100',\n               'dok_nummer': '100',\n               'dok_rm': '2023/24',\n               'dok_titel': 'Protokoll 2023/24:100 Onsdagen den 17 april',\n               'intressent_id': '0279488554424',\n               'kammaraktivitet': 'ärendedebatt',\n               'parti': 'SD',\n               'protokoll_url_www': 'http://www.riksdagen.se/sv/Dokument-Lagar/Kammaren/Protokoll/Riksdagens-snabbprotokoll_HB09100/#anf10',\n               'rel_dok_id': 'HB01SoU22',\n               'replik': 'Y',\n               'systemdatum': '2024-04-18 03:02:17',\n               'systemnyckel': '604815',\n               'talare': 'Alexander Christiansson (SD)',\n               'underrubrik': ''}}\n\n\nThis is all in Swedish. What we are looking for is the key anforande which means speech. The other stuff is all metadata regarding the speech such as who said it, political party, etc. The metadata will come in handy for our analysis."
+  },
+  {
+    "objectID": "posts/noteringar/202407301845.html#creating-embeddings",
+    "href": "posts/noteringar/202407301845.html#creating-embeddings",
+    "title": "Mapping ~400k speeches from the Swedish parlament",
+    "section": "Creating embeddings",
+    "text": "Creating embeddings\nThis part took some trial and error because of the volume and the language. There are approx. 400k speeches - which depending on which tokenizer you use - yields 300M tokens. For my laptop and wallet that’s a lot of tokens. I first tried to use the OpenAI API but it didn’t take long before I hit my rate limit regarding API-calls. Then I tried to make batch calls but the daily rate was 3 M tokens/day for my tier.\nThen I stumbled across Claude and was that they use VoyageAI for embeddings. They have better rate-limits, 1 M tokens/min and 300 calls/min. They also just released a new multilingual model for embeddings. I still wanted to understand how that model was compared to OpenAI. I was fortunate enough to find Kenneth Enevoldsens scandinavian-embedding-benchmark. I opened a request to add voyage-multilingual-2 and Kenneth was kind enough to add the model.\nNow, I am not an expert but at first glance Voyage seemed like a good fit. The avarage score was lower than OpenAI. ButI guess that’s because of the benchmark for language-recognition, which is not my use case. Besides, Voyage is 1024 dimensions while the OpenAI (large) is over 3 000 dimensions. That should speed up the dimensionality reduction that I run locally.\nAll in all, it took about 6 hours to get the embeddings for all the content and cost about 30 USD."
+  },
+  {
+    "objectID": "posts/noteringar/202407301845.html#dimensionality-reduction-and-plotting",
+    "href": "posts/noteringar/202407301845.html#dimensionality-reduction-and-plotting",
+    "title": "Mapping ~400k speeches from the Swedish parlament",
+    "section": "Dimensionality reduction and plotting",
+    "text": "Dimensionality reduction and plotting\nI just followed Umar Butlers post and choose PacMAP algorithm for dimesionality reduction where I went from 1024 to 2 dimensions. It took about 75 minutes to run on my laptop. For plotting I went for plotly. You can see the result below:\n\n\n                                                \n\n\nIf you zoom in on the little island to the bottom left you’ll see that all the speeches are made by “TALMANNEN”. Which is the speaker of parliament."
+  },
+  {
+    "objectID": "ideas.html",
+    "href": "ideas.html",
+    "title": "Ideas",
+    "section": "",
+    "text": "Embeddings\nPlaying with embeddings to plot data.\n\n\nCoccoliths\nTrying to figure out if Coccoliths can be used for carbon capture."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A blog about tech."
   }
 ]

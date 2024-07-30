@@ -1,0 +1,51 @@
+---
+title: "Carbon capture with Coccolithophores"
+author: ""
+date: 2024-03-10
+categories: [carbon-capture, wild-idea]
+draft: true
+id: "202402272046"
+bibliography: references.bib
+---
+
+## Background
+
+Carbon capture with what now?
+
+### Coccolithophores?
+
+Coccolithophores (coccoliths) are calcifying protist[^1]
+
+[^1]: A **protist** ([/ˈproʊtɪst/](https://en.wikipedia.org/wiki/Help:IPA/English "Help:IPA/English") [*PROH-tist*](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key")) or **protoctist** is any [eukaryotic](https://en.wikipedia.org/wiki/Eukaryotic "Eukaryotic") [organism](https://en.wikipedia.org/wiki/Organism "Organism") that is not an [animal](https://en.wikipedia.org/wiki/Animal "Animal"), [plant](https://en.wikipedia.org/wiki/Plant "Plant"), or [fungus](https://en.wikipedia.org/wiki/Fungus "Fungus"). [@protist2024]
+
+I have this crazy idea that I just have to put out here on the interwebz. Maybe someone can give some feedback.
+
+When my daughter was born I was struck by a tremendous climate anxiety. Like - what I am actually leaving behind for her. Will she even able to live in this world?
+
+Anyway, I started to think really hard about how one can capture carbon in the air. Specially since we are not ever ever ever going to cut out emissions. No, it's not going to happen.
+
+I started to read about how mother nature goes about capturing carbon. And it turns out there is an algea, called Coccolithophores, that plays a huge role in the world carbon cycle.
+
+The question is - can this process, that is slow in human years, be speed up so it's fits within our time frame?
+
+## How was the carbon captured in the first place?
+
+One way carbon is captured is trough the ocean carbon pump described by the picture below:
+
+![](images/paste-1.png)
+
+[@devargas2007]
+
+What are we seeing - it's a picture of Coccolitophores that are eating, dying and falling towards the abyss.
+
+I want to recreate this system as a man made machine in order to capture carbon and sequestering it in to the abyss. Bye bye climate change. Can it be done - even on a theorethical level?
+
+## Types of Coccolithphores
+
+There are a lot of different Cooclithophores - I'll call them Coccoliths from now on - and the are pretty!
+
+![](images/paste-2.png)
+
+See thoes plates? That's basically a shell made out of CaCO3. It is believed that the use that to set the boyancy. So they can find a depth that is full of nutrients. That's good to know if you would like to - I don't know - harvest the plates for carbon sequestration.
+
+There are different species that contain different amounts of CaCO3.

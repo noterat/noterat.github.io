@@ -1,0 +1,7 @@
+---
+title: "Now" 
+about:
+  template: jolla
+---
+
+- Studying decision-, risk and policy.  

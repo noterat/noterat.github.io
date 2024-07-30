@@ -1,1 +1,8 @@
-/.quarto/
+.quarto
+.Rproj.user
+.env
+data
+.quarto
+_freeze
+.quarto/xref/12c8f34a
+.quarto/xref/33a6cd6a
